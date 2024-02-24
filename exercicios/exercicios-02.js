@@ -29,3 +29,9 @@ console.log(dobrarNumero(5)); // Deve imprimir 10
 console.log(dobrarNumero(10)); // Deve imprimir 20
 
 */
+
+function dobraNumero(numero){
+   return numero*2
+}
+
+console.log(dobraNumero(3));

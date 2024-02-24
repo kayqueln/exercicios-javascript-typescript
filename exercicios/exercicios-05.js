@@ -25,3 +25,21 @@
  * - Experimente criar seus próprios casos de teste para verificar se as funções estão se comportando conforme o esperado.
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça auxílio a um colega ou professor.
  */
+
+function imprimirNumeros(numero){
+    for(var i = 0; i < numero; i++){
+        console.log(i);
+    }
+}
+
+console.log(imprimirNumeros(4))
+
+function imprimirPares(numero){
+    for(var i = 0; i < numero; i++){
+        if(i % 2 === 0){
+            console.log(i);
+        }
+    }
+}
+
+console.log(imprimirPares(10))

@@ -3,6 +3,17 @@
 - nome
 - isAtivo */
 
+let idade = 0;
+let nome = '';
+let isAtivo = true;
+
+idade = 19;
+nome = 'Kayque'
+isAtivo = false
+
+console.log(idade, nome, isAtivo)
+
+
 /* Sua tarefa é fazer as seguintes manipulações com essas variáveis:
 
 1. Altere o valor da variável idade para a sua idade atual.

@@ -24,3 +24,29 @@
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça ajuda a um colega ou professor.
  * 
  */
+
+function calcularDesconto(preco, percentualDesconto){
+    console.log(preco - (preco * percentualDesconto/100))
+}
+
+console.log(calcularDesconto(20, 2));
+
+function verificarParOuImpar(numero) {
+    if(numero % 2 == 0){
+        return `O número ${numero} é par`;
+    } else {
+        return `O número ${numero} é ìmpar`;
+    }
+}
+
+console.log(verificarParOuImpar(4));
+
+function verificarNegativo(numero){
+    if(numero < 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(verificarNegativo(-8));
